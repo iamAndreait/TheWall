@@ -1,7 +1,10 @@
+import Header from "./components/Header";
+import Board from "./components/Board";
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-center text-violet-700 font-bold">The Wall</h1>
+    <div className="App container mx-auto mt-3">
+      <Header />
+      <Board />
     </div>
   );
 }
